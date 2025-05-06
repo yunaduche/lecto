@@ -9,7 +9,7 @@ class RenewalService {
         lock: t.LOCK.UPDATE
       });
       
-      if (!emprunt) throw new Error('Emprunt non trouvé');
+      if (!emprunt) throw new Error('Emprunt non introuvable');
       if (emprunt.renouvele) throw new Error('Cet emprunt a déjà été renouvelé');
       if (new Date() > emprunt.date_retour_prevue) throw new Error('Emprunt en retard, renouvellement impossible');
       
