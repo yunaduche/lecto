@@ -10,7 +10,7 @@ type DashboardProps = {
 
 const mockChartData = [
   { name: 'Jan', loans: 400 },
-  { name: 'Feb', loans: 300 },
+  { name: 'Feb', loans: 350 },
   { name: 'Mar', loans: 550 },
   { name: 'Apr', loans: 450 },
   { name: 'May', loans: 600 },
