@@ -35,7 +35,7 @@ export const BookForm: React.FC<BookFormProps> = ({
         {field === 'mots_cle' && isGeneratingKeywords && (
           <span className="text-blue-500 text-xs flex items-center">
             <Loader2 className="h-3 w-3 mr-1 animate-spin" />
-            Génération en cours...
+            Génération mots clé en cours...
           </span>
         )}
       </Label>
